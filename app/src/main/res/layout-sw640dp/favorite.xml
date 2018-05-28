@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favorite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4692c9">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Clear All Favorites "
+        android:textSize="12dp"
+        android:id="@+id/clear_button"
+        android:textColor="#ff0f00"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview_fav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="51dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"/>
+
+    <ImageView
+        android:id="@+id/image_fav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
