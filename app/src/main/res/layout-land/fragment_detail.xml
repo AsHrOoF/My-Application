@@ -8,7 +8,7 @@
         android:id="@+id/fragment_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#9E9E9E"
+        android:background="#3F51B5"
         android:orientation="vertical"
         tools:context="com.example.android.sec_movieapp.Activities.Detail_Activity">
 
@@ -103,12 +103,14 @@
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
                 android:textSize="22sp" />
 
             <ListView xmlns:android="http://schemas.android.com/apk/res/android"
                 android:id="@+id/listview"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"/>
 
         </LinearLayout>
 
@@ -116,12 +118,14 @@
             android:id="@+id/textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textview1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
             android:textSize="16dp" />
 
     </LinearLayout>
