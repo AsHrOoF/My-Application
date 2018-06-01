@@ -16,7 +16,8 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="12dp">
 
             <ImageView
                 android:id="@+id/imageview"
@@ -109,7 +110,7 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="14dp"
                 android:layout_marginLeft="8dp"
-                android:src="@drawable/youtube" />
+                android:src="@drawable/ic_youtube" />
 
                 <TextView
                     android:id="@+id/tv1"
