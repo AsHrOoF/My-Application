@@ -107,12 +107,12 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="120dp"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="14dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/youtube" />
+                    android:src="@drawable/ic_youtube" />
 
                 <TextView
                     android:id="@+id/tv1"

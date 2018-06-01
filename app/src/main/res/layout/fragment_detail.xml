@@ -100,26 +100,28 @@
             android:layout_marginBottom="15dp"
             android:orientation="vertical">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="14dp"
                 android:layout_marginLeft="8dp"
-                android:src="@drawable/youtube" />
+                android:src="@drawable/ic_youtube"
+                android:id="@+id/youtube_IV"/>
 
                 <TextView
                     android:id="@+id/tv1"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#000000"
-                    android:textSize="22sp" />
+                    android:textSize="22sp"
+                    android:layout_toRightOf="@+id/youtube_IV"/>
 
 
-            </LinearLayout>
+            </RelativeLayout>
 
             <ListView xmlns:android="http://schemas.android.com/apk/res/android"
                 android:id="@+id/listview"
